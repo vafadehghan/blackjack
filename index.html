@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="style.css" />
   <script
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -16,14 +17,32 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous"
   />
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
-  <script src="source.js"></script>
+
   <head>
     <title>BlackJack</title>
   </head>
-  <body></body>
+  <body>
+    <h1 id="title">Welcome to Blackjack</h1>
+    <div id="dealers-field">
+      <span id="dealerC0"></span>
+      <span id="dealerC1"></span>
+      <span id="dealerC2"></span>
+      <span id="dealerC3"></span>
+      <span id="dealerC4"></span>
+    </div>
+    <div id="buttons">
+      <button id="hitBtn">Hit Me!</button>
+      <button id="standBtn">Stand</button>
+      <span id="playerTotal">Player Total: </span>
+      <span id="dealerTotal">Deaker Total: </span>
+    </div>
+    <div id="play-field">
+      <span id="playerC0"></span>
+      <span id="playerC1"></span>
+      <span id="playerC2"></span>
+      <span id="playerC3"></span>
+      <span id="playerC4"></span>
+    </div>
+  </body>
+  <script src="source.js"></script>
 </html>

@@ -1,0 +1,70 @@
+#dealers-field {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 20px 20px;
+  margin-top: 1%;
+  text-align: center;
+  overflow: hidden;
+}
+
+#play-field {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 20px 20px;
+  margin-top: 1%;
+  text-align: center;
+  overflow: hidden;
+}
+#dealerC0,
+#dealerC1,
+#dealerC2,
+#dealerC3,
+#dealerC4 {
+  overflow: hidden;
+  margin: 1%;
+  line-height: 150px;
+  text-align: center;
+  height: 150px;
+  float: left;
+  width: 18%;
+  border: 2px solid green;
+}
+#playerC0,
+#playerC1,
+#playerC2,
+#playerC3,
+#playerC4 {
+  overflow: hidden;
+  margin: 1%;
+  line-height: 150px;
+  text-align: center;
+  height: 150px;
+  float: left;
+  width: 18%;
+  border: 2px solid green;
+}
+#title {
+  text-align: center;
+}
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hitBtn {
+  display: flex;
+  justify-content: center;
+}
+#standBtn {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+#playerTotal,
+#dealerTotal {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
